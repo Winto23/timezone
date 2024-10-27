@@ -33,9 +33,14 @@
   <body>
     <div class="container ff-one">
       <div class="row">
-        <div class="col-md-2 text-center text-md-start bg-white rounded rounded-4 mt-5 aside rounded rounded-3">
-          <h1 class="my-5 text-center">Time <span class="text-danger">Zone</span></h1>
-          <ul class="list-group" style="margin-bottom: 50px;">
+        <!-- aside  -->
+        <div
+          class="col-md-2 text-center text-md-start bg-white rounded rounded-4 mt-5 aside rounded rounded-3"
+        >
+          <h1 class="my-5 text-center">
+            Time <span class="text-danger">Zone</span>
+          </h1>
+          <ul class="list-group" style="margin-bottom: 50px">
             <a href="#" class="text-decoration-none text-dark mb-3">
               <li
                 class="list-group-item text-white rounded rounded-3"
@@ -44,44 +49,224 @@
                 <i class="fa-solid fa-house text-white me-3"></i>Home
               </li></a
             >
-            <a href="#" class="text-decoration-none  mb-3">
-              <li class="list-group-item text-secondary rounded rounded-3" style="border: none">
+            <a href="#" class="text-decoration-none mb-3">
+              <li
+                class="list-group-item text-secondary rounded rounded-3"
+                style="border: none"
+              >
                 <i class="fa-solid fa-book-open me-3"></i>Pages
               </li></a
             >
-            <a href="#" class="text-decoration-none  mb-3">
-              <li class="list-group-item text-secondary rounded rounded-3" style="border: none">
+            <a href="#" class="text-decoration-none mb-3">
+              <li
+                class="list-group-item text-secondary rounded rounded-3"
+                style="border: none"
+              >
                 <i class="fa-brands fa-intercom me-3"></i>Application
               </li></a
             >
-            <a href="#" class="text-decoration-none  mb-3">
-              <li class="list-group-item text-secondary rounded rounded-3" style="border: none">
+            <a href="#" class="text-decoration-none mb-3">
+              <li
+                class="list-group-item text-secondary rounded rounded-3"
+                style="border: none"
+              >
                 <i class="fa-solid fa-bag-shopping me-3"></i>Ecommerce
               </li></a
             >
-            <a href="#" class="text-decoration-none  mb-3">
-              <li class="list-group-item text-secondary rounded rounded-3" style="border: none">
+            <a href="#" class="text-decoration-none mb-3">
+              <li
+                class="list-group-item text-secondary rounded rounded-3"
+                style="border: none"
+              >
                 <i class="fa-solid fa-shield-halved me-3"></i>Authentication
               </li></a
             >
-            <a href="#" class="text-decoration-none  mb-3">
-              <li class="list-group-item text-secondary rounded rounded-3" style="border: none">
+            <a href="#" class="text-decoration-none mb-3">
+              <li
+                class="list-group-item text-secondary rounded rounded-3"
+                style="border: none"
+              >
                 <i class="fa-solid fa-bell me-3"></i>Notification
               </li></a
             >
-            <a href="#" class="text-decoration-none  mb-3">
-              <li class="list-group-item text-secondary rounded rounded-3" style="border: none">
+            <a href="#" class="text-decoration-none mb-3">
+              <li
+                class="list-group-item text-secondary rounded rounded-3"
+                style="border: none"
+              >
                 <i class="fa-regular fa-calendar me-3"></i>Calendar
               </li></a
             >
-            <a href="#" class="text-decoration-none  mb-3">
-              <li class="list-group-item text-secondary rounded rounded-3" style="border: none">
+            <a href="#" class="text-decoration-none mb-3">
+              <li
+                class="list-group-item text-secondary rounded rounded-3"
+                style="border: none"
+              >
                 <i class="fa-solid fa-comment me-3"></i>Message
               </li></a
             >
           </ul>
         </div>
-        <div class="col-md-10"></div>
+        <div class="col-md-10">
+          <!-- nav bar  -->
+          <nav
+            id="admin-nav"
+            class="navbar navbar-expand-lg bg-body-white mt-5 ff-comic py-3 fs-5 fw-bold"
+          >
+            <div class="container-fluid">
+              <a class="navbar-brand ms-3" href="#">Dashboard </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex ms-auto" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                  <button
+                    class="btn ms-3"
+                    onclick="window.open('login-form/index.html', '_blank');"
+                    type="button"
+                  >
+                    <i class="fa-solid fa-user"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-- cards  -->
+          <div class="container mt-3">
+            <div class="row">
+              <div class="col-md-4 mb-2" style="cursor: pointer">
+                <div class="d-flex p-2 rounded rounded-4 bg-white">
+                  <div class="mt-3">
+                    <img src="images/dash-1.png" alt="icon-1" />
+                  </div>
+                  <div class="card-body ms-4 mt-3" style="line-height: 5px">
+                    <p class="card-text fw-bold">Sales</p>
+                    <p class="card-text text-secondary">$230.220</p>
+                    <p class="card-text" style="color: #ff8e29">
+                      <i class="fa-solid fa-up-long me-2"></i>+55% last month
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-2" style="cursor: pointer">
+                <div class="d-flex p-2 rounded rounded-4 bg-white">
+                  <div class="mt-3">
+                    <img src="images/dash-2.png" alt="icon-1" />
+                  </div>
+                  <div class="card-body ms-4 mt-3" style="line-height: 5px">
+                    <p class="card-text fw-bold">Customers</p>
+                    <p class="card-text text-secondary">3,200</p>
+                    <p class="card-text" style="color: #ff8e29">
+                      <i class="fa-solid fa-up-long me-2"></i>+12% last month
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-2" style="cursor: pointer">
+                <div class="d-flex p-2 rounded rounded-4 bg-white">
+                  <div class="mt-3">
+                    <img src="images/dash-3.png" alt="icon-1" />
+                  </div>
+                  <div class="card-body ms-4 mt-3" style="line-height: 5px">
+                    <p class="card-text fw-bold">Avg Revenue</p>
+                    <p class="card-text text-secondary">$2,300</p>
+                    <p class="card-text" style="color: #ff8e29">
+                      <i class="fa-solid fa-up-long me-2"></i>+21% last month
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- charts  -->
+          <div class="container my-3">
+            <div class="row mt-5">
+              <div class="col-md-7 mt-3 bg-white rounded rounded-4">
+                <div>
+                  <canvas id="myChart"></canvas>
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                <script>
+                  const ctx = document.getElementById("myChart");
+
+                  new Chart(ctx, {
+                    type: "bar",
+                    data: {
+                      labels: ["Jan", "Feb", "March", "April", "May", "June"],
+                      datasets: [
+                        {
+                          label: "Sales",
+                          data: [12000, 19000, 30000, 23000, 19000, 32000],
+                          backgroundColor: "#FF8E29",
+                          borderColor: "#FF8E29",
+                          borderWidth: 1,
+                        },
+                      ],
+                    },
+                    options: {
+                      scales: {
+                        y: {
+                          beginAtZero: true,
+                        },
+                      },
+                    },
+                  });
+                </script>
+              </div>
+              <div class="col-md-5">
+                <div class="bg-white rounded rounded-3 px-3">
+                  <canvas id="myChart1"></canvas>
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                <script>
+                  const ctxr = document.getElementById("myChart1");
+
+                  new Chart(ctxr, {
+                    type: "doughnut",
+                    data: {
+                      labels: ["Direct", "Oraganic", "Paid", "Social"],
+                      datasets: [
+                        {
+                          label: "Website Visitors",
+                          data: [32, 8, 16, 44],
+                          borderWidth: 1,
+                        },
+                      ],
+                    },
+                    options: {
+                      scales: {
+                        y: {
+                          beginAtZero: true,
+                        },
+                      },
+                    },
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script
