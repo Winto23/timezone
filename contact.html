@@ -30,7 +30,6 @@
     <link rel="icon" href="images/logo.avif" />
   </head>
   <body>
-    <!-- nav bar  -->
     <nav
       id="nav"
       class="navbar navbar-expand-lg bg-body-white ff-comic py-3 fs-5 fw-bold"
@@ -53,7 +52,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
             <li class="nav-item mx-3">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link " href="index.html">Home</a>
             </li>
             <li class="nav-item mx-3">
               <a class="nav-link" href="shop.html">Shop</a>
@@ -75,6 +74,7 @@
             <button class="btn" type="submit">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
+
             <button
               class="btn ms-3"
               onclick="window.open('login-form/index.html', '_blank');"
@@ -82,8 +82,13 @@
             >
               <i class="fa-solid fa-user"></i>
             </button>
-            <button class="btn ms-3" type="button">
+            <button
+              class="btn ms-3 d-flex mt-1"
+              onclick="window.open('cart.html', '_self');"
+              type="button"
+            >
               <i class="fa-solid fa-cart-shopping"></i>
+              <span id="cart-count" class="badge text-dark">0</span>
             </button>
           </form>
         </div>

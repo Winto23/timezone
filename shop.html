@@ -30,7 +30,6 @@
     <link rel="icon" href="images/logo.avif" />
   </head>
   <body>
-    <!-- nav bar  -->
     <nav
       id="nav"
       class="navbar navbar-expand-lg bg-body-white ff-comic py-3 fs-5 fw-bold"
@@ -75,6 +74,7 @@
             <button class="btn" type="submit">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
+
             <button
               class="btn ms-3"
               onclick="window.open('login-form/index.html', '_blank');"
@@ -82,8 +82,13 @@
             >
               <i class="fa-solid fa-user"></i>
             </button>
-            <button class="btn ms-3" type="button">
+            <button
+              class="btn ms-3 d-flex mt-1"
+              onclick="window.open('cart.html', '_self');"
+              type="button"
+            >
               <i class="fa-solid fa-cart-shopping"></i>
+              <span id="cart-count" class="badge text-dark">0</span>
             </button>
           </form>
         </div>
@@ -124,6 +129,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Rolex Submariner"
+                  data-item-price="8000"
+                  data-item-image="images/pi1.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -145,6 +153,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Omega Speedmaster"
+                  data-item-price="7500"
+                  data-item-image="images/pi2.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -166,6 +177,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Tag Heuer Carrera"
+                  data-item-price="6000"
+                  data-item-image="images/pi3.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -189,6 +203,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Seiko 5"
+                  data-item-price="1000"
+                  data-item-image="images/pi4.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -210,6 +227,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Breitling Navitime"
+                  data-item-price="9000"
+                  data-item-image="images/pi5.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -231,6 +251,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Patek Philippe Nautilus"
+                  data-item-price="35000"
+                  data-item-image="images/pi6.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -262,6 +285,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name=" Silver Minimalist Chronograph"
+                  data-item-price="3200"
+                  data-item-image="images/pi1.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -283,6 +309,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Rose Elegant Watch"
+                  data-item-price="4500"
+                  data-item-image="images/pi2.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -304,6 +333,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Dual Tone Luxury Watch"
+                  data-item-price="8500"
+                  data-item-image="images/pi3.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -329,6 +361,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Skeleton Dial Luxury Watch"
+                  data-item-price="7500"
+                  data-item-image="images/pi4.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -352,6 +387,9 @@
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name="Black Ceramic Chronograph"
+                  data-item-price="3500"
+                  data-item-image="images/pi5.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>
@@ -369,12 +407,15 @@
             />
             <div class="card-body">
               <h5 class="card-title ff-marza fs-3">
-                Brushed Steel Pilot’s Watch
+                Brushed Steel Pilot's Watch
               </h5>
               <p class="card-text text-danger ff-marza fs-3">$ 7,800</p>
               <div class="overlay">
                 <button
                   class="add-to-cart text-white btn btn-danger fs-5"
+                  data-item-name=" Brushed Steel Pilot's Watch"
+                  data-item-price="7800"
+                  data-item-image="images/pi6.webp"
                   style="border: none"
                 >
                   <i class="fa-solid fa-cart-shopping"></i>

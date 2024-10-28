@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Markazi+Text:wght@400..700&display=swap");
-*{
+* {
   scroll-behavior: smooth;
 }
 .ff-marza {
@@ -25,8 +25,8 @@
   background-color: #f0f0f2;
 }
 .sub-banner {
-  text-align: left; 
-  margin: auto; 
+  text-align: left;
+  margin: auto;
 }
 .shop-now {
   color: black;
@@ -81,28 +81,31 @@
   margin-top: 150px;
   margin-bottom: 150px;
 }
-.choice-1,.choice-2 {
+.choice-1,
+.choice-2 {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: center; 
-  height: 100%; 
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
-footer{
+footer {
   position: relative;
 }
-.to-top{
+.to-top {
   position: absolute;
   right: 3%;
   bottom: 0;
 }
-.shop-banner{
+.shop-banner {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.popular-items-shop .card,.new-arrivals-shop .card{
+.popular-items-shop .card,
+.new-arrivals-shop .card {
   border: none;
 }
+/* carts  */
